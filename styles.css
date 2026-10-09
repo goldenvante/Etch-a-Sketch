@@ -1,10 +1,4 @@
-/*  COLOR PALETTE
 
-    BLUE #04ABAE
-    RED #CC0000
-    YELLOW #FFE600
-    SHADOW #9E4C4C
-    GRAY #ACACAC  */
     @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 body {
@@ -19,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    color: #88c9ff;
+    color: #05f1de;
 }
 
 #title2 {
@@ -32,7 +26,7 @@ body {
     padding-bottom: 75px;
     border-radius: 7%;
     margin: auto;
-    box-shadow: inset 4px 10px 10px 4px #f7153b;
+    box-shadow: inset 4px 10px 10px 4px #03ebfc;
     
 }
 
@@ -50,7 +44,7 @@ body {
 }
 
 .cell {
-  border:#b4b2b2fc solid thin;
+  border:#bdbbbbfc solid thin;
   
   
 }
@@ -66,8 +60,8 @@ body {
   width: 75px;
   height: 75px;
   border-radius: 100%;
-  background: #0292f3 ;
-  color: rgb(255, 255, 255);
+  background: #01dbf8 ;
+  color: rgb(5, 5, 5);
   font-family: "Lobster" , sans-serif;
   font-size: large;
 }
@@ -86,7 +80,7 @@ input {
 }
 
 .sizeBtn {
-  background:linear-gradient(180deg, #ff004c, #ff004c );
+  background:linear-gradient(180deg, #05fafa, #7700ff );
   font-family: 'lobster' , sans-serif;
   font-size: x-large;
   border-radius: 5px;
@@ -103,11 +97,11 @@ button:active {
 }
 
 .colorBtn:focus {
-  background-color: #eb377c;
+  background-color: #6d34f1;
 }
 
 .footer {
-  font-family: 'Rock Salt', 'Lobster';
+  font-family: 'Times New Roman', 'Lobster';
   text-align: center;
   margin-top: 20px;
   color: rgb(255, 255, 255);
